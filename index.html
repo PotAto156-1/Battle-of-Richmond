@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Website with Multiple Dropdowns</title>
+  <title>Website with Custom Dropdowns</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,7 +11,7 @@
     }
 
     header {
-      background-color: #4CAF50;
+      background-color: #800000; /* Maroon */
       color: white;
       padding: 1em;
       text-align: center;
@@ -21,6 +21,7 @@
       background: #333;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       padding: 0.5em;
     }
 
@@ -82,49 +83,42 @@
 <body>
 
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>Battle of Richmond</h1>
   </header>
 
   <nav>
-    <a href="#"></a>
-    <a href="#">About</a>
+    <a href="#">Home</a>
+    <a href="#">Odds and Outcomes</a>
 
     <div class="dropdown">
-      <button class="dropdown-button">Menu</button>
+      <button class="dropdown-button">Battle</button>
       <div class="dropdown-content">
-        <a href="#">Projects</a>
-        <a href="#">Gallery</a>
-        <a href="#">Contact</a>
+        <a href="#">Before</a>
+        <a href="#">During</a>
+        <a href="#">After</a>
       </div>
     </div>
 
     <div class="dropdown">
-      <button class="dropdown-button">Services</button>
+      <button class="dropdown-button">Leadership</button>
       <div class="dropdown-content">
-        <a href="#">Web Design</a>
-        <a href="#">SEO</a>
-        <a href="#">Marketing</a>
+        <a href="#">Union Leadership</a>
+        <a href="#">Confederacy Leadership</a>
       </div>
     </div>
 
-    <div class="dropdown">
-      <button class="dropdown-button">More</button>
-      <div class="dropdown-content">
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-        <a href="#">Help</a>
-      </div>
-    </div>
-
+    <a href="#">Photos/Videos</a>
+    <a href="#">Interesting Facts</a>
+    <a href="#">Questions to Consider</a>
   </nav>
 
   <main>
     <h2>About This Site</h2>
-    <p>This site now features multiple dropdown menus for easier navigation!</p>
+    <p>This version includes dropdowns and new buttons to explore Civil War content more easily.</p>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Website</p>
+    <p>&copy; 2025 Battle of Richmond</p>
   </footer>
 
 </body>
