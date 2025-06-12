@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interesting Facts</title>
+  <style>
+    /* same styles as before */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #5C4033; color: white; padding: 1em; text-align: center; }
+    nav { background: #43302E; display: flex; justify-content: center; flex-wrap: wrap; padding: 0.5em; }
+    nav a, .dropdown-button {
+      color: white; text-decoration: none; padding: 0.5em 1em;
+      background: none; border: none; cursor: pointer; font-size: 16px;
+    }
+    nav a:hover, .dropdown:hover .dropdown-button { background-color: #8B5E3C; }
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content {
+      display: none; position: absolute; background-color: white;
+      min-width: 160px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); z-index: 1;
+    }
+    .dropdown-content a {
+      color: black; padding: 12px 16px; text-decoration: none; display: block;
+    }
+    .dropdown-content a:hover { background-color: #f1f1f1; }
+    .dropdown:hover .dropdown-content { display: block; }
+    main { padding: 2em; }
+    footer { background-color: #f1f1f1; text-align: center; padding: 1em; margin-top: 2em; }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Battle of Richmond</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="odds.html">Odds and Outcomes</a>
+
+      <div class="dropdown">
+      <button class="dropdown-button">Leadership</button>
+      <div class="dropdown-content">
+        <a href="UnionLeader.html">Union Leadership</a>
+        <a href="ConfedLeader.html">Confederacy Leadership</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-button">Battle</button>
+      <div class="dropdown-content">
+        <a href="BattleBefore.html">Before</a>
+        <a href="BattleDuring.html">During</a>
+        <a href="BattleAfter.html">After</a>
+      </div>
+    </div>
+
+    <a href="Facts.html">Interesting Facts</a>
+    <a href="QtoConsid.html">Questions to Consider</a>
+    <a href="WorkCited.html">Bibliography</a>
+  </nav>
+
+  <main>
+    <h1 style="text-align: center;">Interesting Facts</h1>
+       <p2 style="text-align: center;">Smith’s forces used two hidden ravines to conceal flanking maneuvers: Cleburne attacked the Union left, while Churchill swung around to crush their right—the terrain tricked the Union commanders</p2>
+ <p2 style="text-align: center;">Troops fought in nearly 100°F heat and dry, dusty terrain. The weather and thick dust intensified the panic among inexperienced Union soldiers</p2>
+ <p2 style="text-align: center;">The Confederate victory cleared the road for Smith to capture Frankfort on September 2—the only Union state capital ever taken by the Confederacy.</p2>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Battle of Richmond</p>
+  </footer>
+
+</body>
+</html>
+       
