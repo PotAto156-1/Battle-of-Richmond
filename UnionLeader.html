@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Union Leader</title>
+  <style>
+    /* same styles as before */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #5C4033; color: white; padding: 1em; text-align: center; }
+    nav { background: #43302E; display: flex; justify-content: center; flex-wrap: wrap; padding: 0.5em; }
+    nav a, .dropdown-button {
+      color: white; text-decoration: none; padding: 0.5em 1em;
+      background: none; border: none; cursor: pointer; font-size: 16px;
+    }
+    nav a:hover, .dropdown:hover .dropdown-button { background-color: #8B5E3C; }
+    .dropdown { position: relative; display: inline-block; }
+    .dropdown-content {
+      display: none; position: absolute; background-color: white;
+      min-width: 160px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); z-index: 1;
+    }
+    .dropdown-content a {
+      color: black; padding: 12px 16px; text-decoration: none; display: block;
+    }
+    .dropdown-content a:hover { background-color: #f1f1f1; }
+    .dropdown:hover .dropdown-content { display: block; }
+    main { padding: 2em; }
+    footer { background-color: #f1f1f1; text-align: center; padding: 1em; margin-top: 2em; }
+  </style>
+</head>
+<body>
 
+  <header>
+    <h1>Before the Battle</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="odds.html">Odds and Outcomes</a>
+
+      <div class="dropdown">
+      <button class="dropdown-button">Leadership</button>
+      <div class="dropdown-content">
+        <a href="UnionLeader.html">Union Leadership</a>
+        <a href="ConfedLeader.html">Confederacy Leadership</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropdown-button">Battle</button>
+      <div class="dropdown-content">
+        <a href="BattleBefore.html">Before</a>
+        <a href="BattleDuring.html">During</a>
+        <a href="BattleAfter.html">After</a>
+      </div>
+    </div>
+
+    <a href="Facts.html">Interesting Facts</a>
+    <a href="QtoConsid.html">Questions to Consider</a>
+    <a href="WorkCited.html">Bibliography</a>
+  </nav>
+
+  <main>
+        <h1>Union Leader</h1>
+       <p2 style="text-align: left;">William “Bull” Nelson was a Union general from Kentucky who played a key role in trying to keep his home state loyal to the Union. Originally a naval officer, he was known for his bold personality and strong presence. At the Battle of Richmond in August 1862, Nelson arrived during heavy fighting and tried to rally his outnumbered and inexperienced troops. He showed personal bravery, even while wounded, but his forces were poorly positioned and ultimately collapsed under Confederate attacks. Over 4,000 Union soldiers were captured in the defeat. Nelson was courageous and determined, but his lack of preparation and weak tactical planning hurt his effectiveness as a commander. Leadership Rating: 2.5/5</p2>
+           <img id= "WilliamNelson" src="folder 1/GenWilliamNelson.png" style="max-width: 100%; height: auto; display: block; margin: 20px auto;" />
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Battle of Richmond</p>
+  </footer>
+
+</body>
+</html>
